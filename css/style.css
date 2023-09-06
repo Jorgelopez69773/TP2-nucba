@@ -1,14 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
 
 body {
-  background-color: pink;
+  background-color: #ffa4ee;
   font-size: 30px;
-  display: flex;
+  padding: 0;
+  margin: 0;
 }
 p {
   font-family: "Noto Serif", serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  background-color: rgba(34, 0, 36, 1);
+  color: rgba(189, 90, 185, 1);
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  border: 0.1rem solid rgba(189, 90, 185, 1);
+  border-radius: 1rem;
 }
 a {
   text-decoration: none;
+}
+img {
+  width: 20rem;
+  height: 15rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navegador {
+  background: linear-gradient(
+    267deg,
+    rgba(34, 0, 36, 1) 0%,
+    rgba(189, 90, 185, 1) 30%,
+    rgba(255, 164, 238, 1) 58%
+  );
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.pestañas {
+  width: 50vw;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
