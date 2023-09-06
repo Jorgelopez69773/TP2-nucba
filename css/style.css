@@ -29,7 +29,7 @@ img {
 
 .navegador {
   background: linear-gradient(
-    267deg,
+    268deg,
     rgba(34, 0, 36, 1) 0%,
     rgba(189, 90, 185, 1) 30%,
     rgba(255, 164, 238, 1) 58%
@@ -48,4 +48,5 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: nowrap;
 }
