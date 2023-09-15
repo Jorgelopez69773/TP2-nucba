@@ -6,6 +6,10 @@ body {
   padding: 0;
   margin: 0;
 }
+
+nav {
+  height: 20vh;
+}
 p {
   font-family: "Noto Serif", serif;
   font-size: 2rem;
@@ -13,7 +17,7 @@ p {
   color: rgba(189, 90, 185, 1);
   text-align: center;
   padding: 0.2rem;
-  margin: 0.2rem;
+  margin: 0.5rem;
   border: 0.1rem solid rgba(189, 90, 185, 1);
   border-radius: 1rem;
 }
@@ -49,4 +53,60 @@ img {
   flex-direction: row;
   justify-content: flex-end;
   flex-wrap: nowrap;
+}
+
+main {
+  background-color: black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 2rem;
+}
+
+.hero-tittle {
+  color: rgba(189, 90, 185, 1);
+  font-family: "Noto Serif", serif;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.hero-boton {
+  color: rgba(189, 90, 185, 1);
+  background-color: rgba(34, 0, 36, 1);
+  margin: 0.1rem;
+  padding: 0.1rem;
+  border: 0.1rem solid #ffa4ee;
+  border-radius: 0.5rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: row;
+}
+.hero-botones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-text {
+  width: 50vw;
+  height: 60vh;
+}
+
+.imagen {
+  width: 50vw;
+  height: 50vh;
+}
+.hero-img {
+  width: 40vw;
+  height: 40vh;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10rem;
+}
+
+.text-text2 {
+  font-size: 1.2rem;
+}
+.text-text1 {
+  font-size: 1.8rem;
 }
