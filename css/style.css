@@ -1,112 +1,168 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 
-body {
-  background-color: #ffa4ee;
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
+.color1 {
+  color: rgb(229, 217, 182);
+}
+.color2 {
+  color: rgb(164, 190, 123);
 }
 
-nav {
-  height: 20vh;
+.color3 {
+  color: rgb(95, 141, 78);
 }
-p {
-  font-family: "Noto Serif", serif;
-  font-size: 2rem;
-  background-color: rgba(34, 0, 36, 1);
-  color: rgba(189, 90, 185, 1);
-  text-align: center;
-  padding: 0.2rem;
-  margin: 0.5rem;
-  border: 0.1rem solid rgba(189, 90, 185, 1);
-  border-radius: 1rem;
+.color4 {
+  color: rgba(40, 84, 48, 1);
 }
-a {
-  text-decoration: none;
+
+html {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  background-color: black;
 }
-img {
-  width: 20rem;
-  height: 15rem;
-  display: flex;
-  justify-content: flex-end;
+
+svg {
+  background: rgb(229, 217, 182);
+  background: linear-gradient(
+    103deg,
+    rgba(229, 217, 182, 1) 0%,
+    rgba(51, 92, 56, 1) 38%
+  );
+  border-radius: 3rem;
+  margin: 1rem;
+  width: 40rem;
+  height: 40rem;
 }
+
+/*CSS para el navegador*/
 
 .navegador {
-  background: linear-gradient(
-    268deg,
-    rgba(34, 0, 36, 1) 0%,
-    rgba(189, 90, 185, 1) 30%,
-    rgba(255, 164, 238, 1) 58%
-  );
-
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  align-items: center;
+  background: rgb(229, 217, 182);
+  background: linear-gradient(
+    234deg,
+    rgba(229, 217, 182, 1) 0%,
+    rgba(40, 84, 48, 1) 79%
+  );
+  border-radius: 2rem;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .pestañas {
-  width: 50vw;
-  padding: 1rem;
-  align-items: center;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  flex-wrap: nowrap;
+  justify-content: end;
 }
+
+.pestañas-boton {
+  display: inline-block;
+  background-color: rgba(40, 84, 48, 1);
+  padding: 0.1rem 2rem;
+  font-size: 2.5rem;
+  margin: 0rem 1rem 0rem 1rem;
+  border-radius: 5.5rem;
+  text-decoration: none;
+  color: rgb(229, 217, 182);
+  border: 0.1rem solid rgba(40, 84, 48, 1);
+}
+
+.imagen-nav {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.pestañas-boton:hover {
+  background-color: black;
+}
+
+.pestañas-boton:active {
+  color: rgba(40, 84, 48, 1);
+}
+
+/*CSS Para el main*/
 
 main {
-  background-color: black;
-  padding: 0.5rem;
-  margin: 0.5rem;
-  border-radius: 2rem;
+  background: rgb(229, 217, 182);
+  background: linear-gradient(
+    66deg,
+    rgba(229, 217, 182, 1) 0%,
+    rgba(95, 141, 78, 1) 21%
+  );
+  border-radius: 3rem;
+  margin: 1rem 2rem 0rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70rem;
 }
 
-.hero-tittle {
-  color: rgba(189, 90, 185, 1);
-  font-family: "Noto Serif", serif;
-  font-size: 4rem;
-  text-align: center;
-}
-
-.hero-boton {
-  color: rgba(189, 90, 185, 1);
-  background-color: rgba(34, 0, 36, 1);
-  margin: 0.1rem;
-  padding: 0.1rem;
-  border: 0.1rem solid #ffa4ee;
-  border-radius: 0.5rem;
-}
+/*CSS Para el Hero*/
 
 .hero {
   display: flex;
-  flex-direction: row;
-}
-.hero-botones {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0rem 2rem 0rem 2rem;
 }
 
 .hero-text {
-  width: 50vw;
-  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30rem;
+  width: 110rem;
+  background-color: rgba(40, 84, 48, 1);
+  border-radius: 3rem;
+  color: rgb(229, 217, 182);
+  font-family: "Fjalla One", sans-serif;
+  margin: 0rem 2rem 0rem 0rem;
+}
+.hero-imagen {
+  margin: 0rem 0rem 0rem 2rem;
 }
 
-.imagen {
-  width: 50vw;
-  height: 50vh;
+.hero-tittle {
+  font-size: 5rem;
 }
-.hero-img {
-  width: 40vw;
-  height: 40vh;
-  padding: 1rem;
+
+.hero-p {
+  font-size: 2.5rem;
+  margin: 0rem 2rem 4rem 2rem;
+}
+
+.hero-boton {
+  display: inline-block;
+  background-color: rgb(229, 217, 182);
+  padding: 0.1rem 2rem;
+  font-size: 2.5rem;
+  margin: 0rem 7rem 0rem 7rem;
+  border-radius: 5.5rem;
+  text-decoration: none;
+  color: rgba(40, 84, 48, 1);
+  border: 0.1rem solid rgb(95, 141, 78);
+}
+.hero-boton:hover {
+  background-color: black;
+  color: rgb(229, 217, 182);
+}
+.hero-boton:active {
+  color: rgba(40, 84, 48, 1);
+}
+
+.informativo {
+  background-color: rgba(40, 84, 48, 1);
+  border-radius: 1rem;
+  width: 120rem;
+  height: 6rem;
+  font-family: "Fjalla One", sans-serif;
   margin: 1rem;
-  border-radius: 10rem;
 }
-
-.text-text2 {
-  font-size: 1.2rem;
-}
-.text-text1 {
-  font-size: 1.8rem;
+.infomativo-text {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(229, 217, 182);
 }
