@@ -21,14 +21,15 @@ html {
   background-color: black;
 }
 
-svg {
+.hero-imagen-svg {
   background: rgb(229, 217, 182);
   background: linear-gradient(
     103deg,
     rgba(229, 217, 182, 1) 0%,
     rgba(51, 92, 56, 1) 38%
   );
-  border-radius: 3rem;
+  border: 1.5rem solid black;
+  border-radius: 12rem;
   margin: 1rem;
   width: 40rem;
   height: 40rem;
@@ -96,7 +97,6 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 70rem;
 }
 
 /*CSS Para el Hero*/
@@ -120,6 +120,7 @@ main {
   color: rgb(229, 217, 182);
   font-family: "Fjalla One", sans-serif;
   margin: 0rem 2rem 0rem 0rem;
+  border: 0.3rem solid black;
 }
 .hero-imagen {
   margin: 0rem 0rem 0rem 2rem;
@@ -160,9 +161,89 @@ main {
   height: 6rem;
   font-family: "Fjalla One", sans-serif;
   margin: 1rem;
+  border: 0.3rem solid black;
+  padding: 1.2rem;
 }
 .infomativo-text {
   font-size: 1.5rem;
   text-align: center;
   color: rgb(229, 217, 182);
+}
+
+/* CSS A CARDS*/
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(40, 84, 48, 1);
+  border-radius: 4rem;
+  width: 25vw;
+  margin: 1rem;
+  border: 0.3rem solid black;
+  padding: 0.8rem;
+}
+
+.cards {
+  display: flex;
+  width: 80vw;
+  justify-content: space-around;
+}
+
+.tittlecard {
+  color: rgba(229, 217, 182, 1);
+  font-family: "Fjalla One", sans-serif;
+}
+
+.textcard {
+  color: rgba(229, 217, 182, 1);
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1.3rem;
+}
+.card-icono {
+  background: rgb(229, 217, 182);
+  background: linear-gradient(
+    360deg,
+    rgba(229, 217, 182, 1) 0%,
+    rgba(51, 92, 56, 1) 38%
+  );
+  border: 1rem solid black;
+  border-radius: 30rem;
+  margin: 1rem;
+  width: 10rem;
+  height: 10rem;
+}
+
+/*CSS FOOTER*/
+
+footer {
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50vw;
+  border-radius: 3rem;
+  border: 1rem solid rgba(229, 217, 182, 1);
+  margin: 3rem;
+}
+.contactotittle {
+  font-size: 7rem;
+  color: rgba(229, 217, 182, 1);
+  font-family: "Fjalla One", sans-serif;
+}
+
+.textlista {
+  font-size: 3rem;
+  margin: 4rem;
+  color: rgba(229, 217, 182, 1);
+  font-family: "Fjalla One", sans-serif;
 }
